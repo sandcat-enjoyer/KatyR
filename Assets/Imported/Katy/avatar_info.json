@@ -1,0 +1,132 @@
+{
+    "meshList": [
+        {
+            "meshName": "ddmo_body",
+            "bodyPart": "body",
+            "textures": {
+                "albedo": "ddmo_body_albedo.jpg",
+                "normal": "ddmo_body_normal.png",
+                "micronormal": "ddmo_body_micronormal.png",
+                "AO": "ddmo_body_AO.jpg",
+                "SSS_AO": "ddmo_body_SSS_AO_mask.png",
+                "specular": "ddmo_body_spec.jpg",
+                "roughness": "ddmo_body_rough.jpg",
+                "translucency": "ddmo_body_trans.jpg",
+                "cavity": "ddmo_body_cavity.jpg",
+                "clothing_mask": "ddmo_body_clothing_mask.png"
+            }
+        },
+        {
+            "meshName": "ddmo_clothing",
+            "bodyPart": "clothing",
+            "textures": {
+                "albedo_opacity": "ddmo_clothing_albedo_opacity.png",
+                "normal": "ddmo_clothing_normal.png",
+                "AO": "ddmo_clothing_AO.jpg",
+                "metal_roughness": "ddmo_clothing_metal_rough.jpg"
+            }
+        },
+        {
+            "meshName": "ddmo_hair",
+            "bodyPart": "hair",
+            "textures": {
+                "albedo_opacity": "ddmo_hair_albedo_opacity.png"
+            },
+            "meshId": "hair_006",
+            "color": "light_blonde"
+        },
+        {
+            "meshName": "ddmo_head",
+            "bodyPart": "head",
+            "textures": {
+                "albedo": "ddmo_head_albedo.jpg",
+                "normal": "ddmo_head_normal.png",
+                "micronormal": "ddmo_head_micronormal.png",
+                "AO": "ddmo_head_AO.jpg",
+                "SSS_AO": "ddmo_head_SSS_AO_mask.png",
+                "specular": "ddmo_head_spec.jpg",
+                "roughness": "ddmo_head_rough.jpg",
+                "translucency": "ddmo_head_trans.jpg",
+                "cavity": "ddmo_head_cavity.jpg"
+            }
+        },
+        {
+            "meshName": "ddmo_eyeLeft",
+            "bodyPart": "leftEye",
+            "textures": {
+                "albedo": "ddmo_eye_albedo.png",
+                "normal": "ddmo_eye_normal.png"
+            }
+        },
+        {
+            "meshName": "ddmo_eyeRight",
+            "bodyPart": "rightEye",
+            "textures": {
+                "albedo": "ddmo_eye_albedo.png",
+                "normal": "ddmo_eye_normal.png"
+            }
+        },
+        {
+            "meshName": "ddmo_mouth",
+            "bodyPart": "mouth",
+            "textures": {
+                "albedo": "ddmo_mouth_albedo.jpg",
+                "normal": "ddmo_mouth_normal.png",
+                "AO": "ddmo_mouth_AO.jpg"
+            }
+        },
+        {
+            "meshName": "ddmo_eyelashes",
+            "bodyPart": "eyelashes",
+            "textures": {
+                "albedo_opacity": "ddmo_eyelashes_albedo_opacity.png"
+            }
+        }
+    ],
+    "animationFrames": {
+        "defaultExpressions": {
+            "Anger": [
+                104,
+                105
+            ],
+            "Disgust": [
+                106,
+                107
+            ],
+            "Fear": [
+                108,
+                109
+            ],
+            "Happy": [
+                110,
+                111
+            ],
+            "Sad": [
+                112,
+                113
+            ],
+            "Surprise": [
+                114,
+                115
+            ],
+            "Neutral": [
+                116,
+                117
+            ]
+        },
+        "ARKit": {
+            "eyeBlinkLeft": [
+                16,
+                17
+            ],
+            "eyeBlinkRight": [
+                18,
+                19
+            ],
+            "jawOpen": [
+                48,
+                50
+            ]
+        }
+    }
+}

@@ -1,0 +1,115 @@
+{
+    "meshList": [
+        {
+            "meshName": "ddmo_body",
+            "bodyPart": "body",
+            "textures": {
+                "albedo": "ddmo_body_albedo.jpg",
+                "normal": "ddmo_body_normal.jpg",
+                "clothing_mask": "ddmo_body_clothing_mask.png"
+            }
+        },
+        {
+            "meshName": "ddmo_clothing",
+            "bodyPart": "clothing",
+            "textures": {
+                "albedo_opacity": "ddmo_clothing_albedo_opacity.png",
+                "normal": "ddmo_clothing_normal.jpg"
+            }
+        },
+        {
+            "meshName": "ddmo_hair",
+            "bodyPart": "hair",
+            "textures": {
+                "albedo_opacity": "ddmo_hair_albedo_opacity.png"
+            },
+            "meshId": "hair_008",
+            "color": "light_blonde"
+        },
+        {
+            "meshName": "ddmo_head",
+            "bodyPart": "head",
+            "textures": {
+                "albedo": "ddmo_head_albedo.jpg",
+                "normal": "ddmo_head_normal.jpg"
+            }
+        },
+        {
+            "meshName": "ddmo_eyeLeft",
+            "bodyPart": "leftEye",
+            "textures": {
+                "albedo": "ddmo_eye_albedo.jpg",
+                "normal": "ddmo_eye_normal.jpg"
+            }
+        },
+        {
+            "meshName": "ddmo_eyeRight",
+            "bodyPart": "rightEye",
+            "textures": {
+                "albedo": "ddmo_eye_albedo.jpg",
+                "normal": "ddmo_eye_normal.jpg"
+            }
+        },
+        {
+            "meshName": "ddmo_mouth",
+            "bodyPart": "mouth",
+            "textures": {
+                "albedo": "ddmo_mouth_albedo.jpg",
+                "normal": "ddmo_mouth_normal.jpg"
+            }
+        },
+        {
+            "meshName": "ddmo_eyelashes",
+            "bodyPart": "eyelashes",
+            "textures": {
+                "albedo_opacity": "ddmo_eyelashes_albedo_opacity.png"
+            }
+        }
+    ],
+    "animationFrames": {
+        "defaultExpressions": {
+            "Anger": [
+                104,
+                105
+            ],
+            "Disgust": [
+                106,
+                107
+            ],
+            "Fear": [
+                108,
+                109
+            ],
+            "Happy": [
+                110,
+                111
+            ],
+            "Sad": [
+                112,
+                113
+            ],
+            "Surprise": [
+                114,
+                115
+            ],
+            "Neutral": [
+                116,
+                117
+            ]
+        },
+        "ARKit": {
+            "eyeBlinkLeft": [
+                16,
+                17
+            ],
+            "eyeBlinkRight": [
+                18,
+                19
+            ],
+            "jawOpen": [
+                48,
+                50
+            ]
+        }
+    }
+}
