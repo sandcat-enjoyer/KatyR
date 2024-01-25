@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/OptionsMenu.unity
     guid: 25799113f796247728bbb3f18f9d1375
+  - enabled: 1
+    path: Assets/Scenes/ITFactory.unity
+    guid: 0ce57c13a3a76402a99d3d7c40e4cf87
+  - enabled: 1
+    path: Assets/Scenes/ICafe.unity
+    guid: b94485af5a1234ec0a873dcf8578eeeb
+  - enabled: 1
+    path: Assets/Scenes/BusinessIsland.unity
+    guid: 5444bbae4b224474582fab92ec22863a
   m_configObjects: {}

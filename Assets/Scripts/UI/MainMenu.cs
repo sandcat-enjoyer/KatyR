@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
@@ -52,11 +53,31 @@ public class MainMenu : MonoBehaviour
 
     public void ClickOnCharacter(int characterIndex)
     {
+        selectedCharacterIndex = characterIndex;
         sfxSource.clip = AudioClips[1];
         sfxSource.Play();
         courseSelectMenu.SetActive(true);
         grandPrixMenu.SetActive(false);
         //additional code needed for bringing over the right character into the race track but that's for later
         //this is just to get the basics down already
+    }
+
+    public void LoadCourse(int courseIndex)
+    {
+        switch (courseIndex)
+        {
+            case 0:
+                SceneManager.LoadScene("ITFactory");
+                break;
+            case 1:
+                SceneManager.LoadScene("ICafe");
+                break;
+            case 2:
+                SceneManager.LoadScene("BusinessIsland");
+                break;
+            default:
+                SceneManager.LoadScene("TitleScreen");
+                break;
+        }
     }
 }
